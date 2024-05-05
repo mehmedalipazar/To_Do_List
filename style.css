@@ -1,0 +1,17 @@
+.dropdown-toggle::after{
+    display: none;
+}
+
+.task{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.task label.checked{
+    text-decoration: line-through;
+}
+
+.btn-close{
+    width: 10px;
+}
